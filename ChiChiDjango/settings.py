@@ -112,7 +112,7 @@ ROOT_URLCONF = 'ChiChiDjango.urls'
 WSGI_APPLICATION = 'ChiChiDjango.wsgi.application'
 
 TEMPLATE_DIRS = (
-    os.path.join(os.path.dirname(__file__), '..', 'templates').replace('\\','/'),
+    os.path.join(os.path.dirname(__file__), '..', 'templates').replace('\\', '/'),
 )
 
 INSTALLED_APPS = (

@@ -11,7 +11,7 @@ def hello(request):
 
 def index(request):
     #return HttpResponse("ChiChi")
-    return render_to_response("includes/base.html")
+    return render_to_response("index.html")
 
 
 def about(request):
