@@ -1,4 +1,5 @@
 # Django settings for ChiChiDjango project.
+import os
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
@@ -74,6 +75,9 @@ STATICFILES_DIRS = (
     # Don't forget to use absolute paths, not relative paths.
 )
 
+# Customized static assets' location
+STATIC_PATH = os.path.join(os.path.dirname(__file__), '..', 'assets').replace('\\','/')
+
 # List of finder classes that know how to find static files in
 # various locations.
 STATICFILES_FINDERS = (
@@ -107,8 +111,9 @@ ROOT_URLCONF = 'ChiChiDjango.urls'
 # Python dotted path to the WSGI application used by Django's runserver.
 WSGI_APPLICATION = 'ChiChiDjango.wsgi.application'
 
-import os
-TEMPLATE_DIRS = (os.path.join(os.path.dirname(__file__), '..', 'templates').replace('\\','/'),)
+TEMPLATE_DIRS = (
+    os.path.join(os.path.dirname(__file__), '..', 'templates').replace('\\','/'),
+)
 
 INSTALLED_APPS = (
     'django.contrib.auth',
