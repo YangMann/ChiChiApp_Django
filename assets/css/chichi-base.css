@@ -87,6 +87,8 @@ body {
 
 a {
     background: transparent;
+    color: #CEA062;
+    text-decoration: none;
 }
 
 /**
@@ -94,7 +96,9 @@ a {
  */
 
 a:focus {
-    outline: thin dotted;
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
 }
 
 /**
@@ -752,4 +756,9 @@ this the same font stack that Normalize.css sets for the `body`.
     .visible-desktop {
         display: none;
     }
+}
+
+::selection {
+    text-shadow: none;
+    background: rgba(206,160,98,0.6);
 }

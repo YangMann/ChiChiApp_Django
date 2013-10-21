@@ -23,6 +23,7 @@
             this.triggerWrapper = this.el.querySelector('li.nv-trigger');
             this.menu = this.el.querySelector('nav.nv-menu-wrapper');
             this.isMenuOpen = false;
+            this.coverImgB = $('div.as-cover-img-b');
             this.eventtype = mobilecheck() ? 'touchstart' : 'click';
             this._initEvents();
 
@@ -66,14 +67,17 @@
         },
         _openIconMenu: function () {
             $(this.menu).addClass("nv-open-part");
+            this.coverImgB.removeClass("transparent");
         },
         _closeIconMenu: function () {
             $(this.menu).removeClass("nv-open-part");
+            if (!this.isMenuOpen) this.coverImgB.addClass("transparent");
         },
         _openMenu: function () {
             if (this.isMenuOpen) return;
             $(this.trigger).addClass("nv-selected");
             $(this.triggerWrapper).addClass("nv-selected");
+            this.coverImgB.removeClass("transparent");
             this.isMenuOpen = true;
             $(this.menu).addClass("nv-open-all");
             this._closeIconMenu();
@@ -82,6 +86,7 @@
             if (!this.isMenuOpen) return;
             $(this.trigger).removeClass("nv-selected");
             $(this.triggerWrapper).removeClass("nv-selected");
+            this.coverImgB.addClass("transparent");
             this.isMenuOpen = false;
             $(this.menu).removeClass("nv-open-all");
             this._closeIconMenu();
