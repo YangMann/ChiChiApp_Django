@@ -5,14 +5,12 @@
 大部分网页交互由AJAX完成
 
 # Django模板规范
-================
 每个页都从base.html扩展
 #### `{% block head %}`扩展`<head>`标签中内容
 #### `{% block body %}`扩展`<body>`标签中内容，如果需包含导航菜单，则在第一行`{% include "includes/nav.html" %}`
 #### `{% block js-**before/after**-ng %}`扩展`</body>`之前的`<script>`标签，分别位于Angular.js加载前后
 
 # CSS编写规范
-================
 ## 命名规范
 CSS类名以语义化双字母缩写开头（如`nv-`、`fw-`），单词之间使用连字符分割。例如：
     <div class="nv-main-trigger">
