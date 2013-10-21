@@ -1,19 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a794d637-c573-4189-849b-4cc77f9906a9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/font/Lato/Lato-300.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/font/Lato/Lato-400.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/font/Lato/Lato-700.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/patterns/black-mask-dot.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/font/ecoicons/ecoicons.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/font/ecoicons/ecoicons.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/font/ecoicons/ecoicons.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/favicon.fw - 副本.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/favicon.fw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/ChiChi-common.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/font/ecoicons/ecoicons.svg" />
+    <list default="true" id="a794d637-c573-4189-849b-4cc77f9906a9" name="Default" comment="字体">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/chichi-colors.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/ChiChi-common.css" afterPath="$PROJECT_DIR$/assets/css/ChiChi-common.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ChiChiDjango.iws" />
@@ -49,7 +39,25 @@
       <file leaf-file-name="chichi-base.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/chichi-base.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="406" column="0" selection-start="7546" selection-end="7546" vertical-scroll-proportion="0.0" vertical-offset="6531" max-vertical-offset="12937">
+            <state line="406" column="0" selection-start="7546" selection-end="7546" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="12937">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChiChi-common.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/ChiChi-common.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="445" column="28" selection-start="8805" selection-end="8805" vertical-scroll-proportion="-9.4" vertical-offset="7330" max-vertical-offset="8177">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="chichi-colors.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/css/chichi-colors.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="29" selection-start="497" selection-end="504" vertical-scroll-proportion="0.55925924" vertical-offset="174" max-vertical-offset="714">
               <folding />
             </state>
           </provider>
@@ -73,10 +81,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nav.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="nav.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/includes/nav.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="25" selection-start="599" selection-end="599" vertical-scroll-proportion="0.20856611" vertical-offset="92" max-vertical-offset="629">
+            <state line="12" column="25" selection-start="599" selection-end="599" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="629">
               <folding />
             </state>
           </provider>
@@ -118,8 +126,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/ChiChiDjango/assets/base.css" />
-        <option value="$PROJECT_DIR$/ChiChiDjango/urls.py" />
         <option value="$PROJECT_DIR$/ChiChiDjango/templates/includes/base.html" />
         <option value="$PROJECT_DIR$/ChiChiDjango/settings.py" />
         <option value="$PROJECT_DIR$/templates/includes/index.html" />
@@ -134,6 +140,8 @@
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/assets/css/chichi-common.css" />
         <option value="$PROJECT_DIR$/assets/js/app/nav.js" />
+        <option value="$PROJECT_DIR$/assets/css/chichi-colors.css" />
+        <option value="$PROJECT_DIR$/assets/css/ChiChi-common.css" />
       </list>
     </option>
   </component>
@@ -670,29 +678,33 @@
       <created>1382317292785</created>
       <updated>1382317292785</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="字体">
+      <created>1382319601937</created>
+      <updated>1382319601937</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32881355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24962063" sideWeight="0.67118645" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24962063" sideWeight="0.67402375" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32767403" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32711864" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32597622" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293718" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -731,17 +743,13 @@
     <MESSAGE value="重做favicon，base.css集成Normalize.css和YUI grids" />
     <MESSAGE value="添加jQuery, Angular库, 完善&lt;meta&gt;标签" />
     <MESSAGE value="nav菜单初步完成，整合页顶进度条" />
-    <option name="LAST_COMMIT_MESSAGE" value="nav菜单初步完成，整合页顶进度条" />
+    <MESSAGE value="字体" />
+    <option name="LAST_COMMIT_MESSAGE" value="字体" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ChiChiDjango/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="563" />
@@ -790,13 +798,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/chichi-base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="406" column="0" selection-start="7546" selection-end="7546" vertical-scroll-proportion="0.0" vertical-offset="6531" max-vertical-offset="12937">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/app/nav.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="373" column="0" selection-start="11655" selection-end="11655" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6443">
@@ -827,7 +828,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/includes/nav.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="25" selection-start="599" selection-end="599" vertical-scroll-proportion="0.20856611" vertical-offset="92" max-vertical-offset="629">
+        <state line="12" column="25" selection-start="599" selection-end="599" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="629">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/chichi-base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="406" column="0" selection-start="7546" selection-end="7546" vertical-scroll-proportion="0.0" vertical-offset="6531" max-vertical-offset="12937">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/ChiChi-common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="445" column="28" selection-start="8805" selection-end="8805" vertical-scroll-proportion="-9.4" vertical-offset="7330" max-vertical-offset="8177">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/chichi-colors.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="29" selection-start="497" selection-end="504" vertical-scroll-proportion="0.55925924" vertical-offset="174" max-vertical-offset="714">
           <folding />
         </state>
       </provider>
