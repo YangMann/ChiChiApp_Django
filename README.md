@@ -17,7 +17,7 @@
 
 ## CSS编写规范
 ### 命名规范
-CSS类名以语义化双字母缩写开头（如`nv-`、`fw-`），单词之间使用连字符分割。例如：
+CSS类名以语义化双字母缩写开头（如`nv-`表示`nav`、`fw-`表示`framework`），单词之间使用连字符分割。例如：
 
     <div class="nv-main-trigger">
         <!-- some tags -->
