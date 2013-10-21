@@ -1,0 +1,474 @@
+/* General font-family setting */
+@font-face {
+    font-family: Lato;
+    src: url("/assets/font/Lato/Lato-300.woff");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: Lato;
+    src: url("/assets/font/Lato/Lato-400.woff");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Lato;
+    src: url("/assets/font/Lato/Lato-700.woff");
+    font-weight: 700;
+}
+
+body {
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", sans-serif;
+}
+
+/**
+ * Initial stretch
+ *
+ */
+html,
+body,
+.fw-container,
+.fw-wrapper {
+    height: 100%;
+}
+
+/**
+ * Nav menu 
+ *
+ */
+*,
+*:after,
+*::before {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'ecoicons';
+    src: url("/assets/font/ecoicons/ecoicons.eot");
+    src: url("/assets/font/ecoicons/ecoicons.eot?#iefix") format("embedded-opentype"), url("/assets/font/ecoicons/ecoicons.woff") format("woff"), url("/assets/font/ecoicons/ecoicons.ttf") format("truetype"), url("/assets/font/ecoicons/ecoicons.svg#ecoicons") format("svg");
+}
+
+.nv-menu-main,
+.nv-menu-main ul {
+    margin: 0;
+    padding: 0;
+    /*background: white;*/
+    /*color: #5f6f81;*/
+    /*background: #5f6f81;*/
+    color: white;
+    list-style: none;
+    text-transform: none;
+    font-weight: 300;
+    line-height: 60px;
+}
+
+.nv-menu-main {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    font-size: 13px;
+}
+
+.nv-menu-main a {
+    display: block;
+    height: 100%;
+    /*color: #5f6f81;*/
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.no-touch .nv-menu-main a:hover,
+.no-touch .nv-menu li.nv-search-item:hover,
+.no-touch .nv-menu li.nv-search-item:hover a {
+    /*background: #5f6f81;*/
+    /*color: white;*/
+    background: white;
+    color: #5f6f81;
+}
+
+.nv-menu-main > li {
+    display: block;
+    float: left;
+    height: 100%;
+    /*border-right: 1px solid #c6d0da*/
+    /*border-right: 1px solid #848C94;*/
+    text-align: center;
+}
+
+/* icon-only trigger (menu item) */
+
+.nv-menu-main li.nv-trigger {
+    position: relative;
+    width: 60px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background: #5f6f81;
+}
+
+.nv-menu-main li.nv-trigger.nv-selected {
+    background: white;
+}
+
+/*.nv-menu-main > li:last-child {
+    float: right;
+    border-right: none;
+    border-left: 1px solid *//*#c6d0da*//*#848C94;
+}*/
+
+.nv-menu-main > li > a {
+    padding: 0 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.nv-menu-main:after {
+    display: table;
+    clear: both;
+    content: "";
+}
+
+.nv-menu-wrapper {
+    position: fixed;
+    top: 60px;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    width: 60px;
+    border-top: 1px solid /*#c6d0da*/#848C94;
+    /*background: white;*/
+    background: #5f6f81;
+    -webkit-transform: translateX(-60px);
+    -moz-transform: translateX(-60px);
+    transform: translateX(-60px);
+    -webkit-transition: -webkit-transform 0.3s, width 0.3s;
+    -moz-transition: -moz-transform 0.3s, width 0.3s;
+    transition: transform 0.3s, width 0.3s;
+}
+
+.nv-scroller {
+    position: absolute;
+    overflow-y: scroll;
+    width: 370px;
+    height: 100%;
+}
+
+.nv-menu {
+    border-bottom: 1px solid /*#c6d0da*/#848C94;
+    text-align: left;
+    font-size: 18px;
+}
+
+.nv-menu li:not(:first-child),
+.nv-menu li li {
+    box-shadow: inset 0 1px /*#c6d0da*/#848C94;
+}
+
+.nv-sub-menu li {
+    overflow: hidden;
+    height: 0;
+    -webkit-transition: height 0.3s;
+    -moz-transition: height 0.3s;
+    transition: height 0.3s;
+}
+
+.nv-sub-menu li a {
+    color: #c1c9d1
+}
+
+input.nv-search {
+    position: relative;
+    z-index: 10;
+    padding-left: 60px;
+    outline: none;
+    border: none;
+    background: transparent;
+    /*color: #5f6f81;*/
+    color: white;
+    font-weight: 300;
+    font-family: 'Lato', Arial, sans-serif;
+    cursor: pointer;
+}
+
+/* placeholder */
+
+.nv-search::-webkit-input-placeholder {
+    /*color: #5f6f81*/
+    color: white;
+}
+
+.nv-search:-moz-placeholder {
+    /*color: #5f6f81*/
+    color: white;
+}
+
+.nv-search::-moz-placeholder {
+    /*color: #5f6f81*/
+    color: white;
+}
+
+.nv-search:-ms-input-placeholder {
+    /*color: #5f6f81*/
+    color: white;
+}
+
+/* hide placeholder when active in Chrome */
+
+.nv-search:focus::-webkit-input-placeholder,
+.no-touch .nv-menu li.nv-search-item:hover .nv-search:focus::-webkit-input-placeholder {
+    color: transparent
+}
+
+input.nv-search:focus {
+    cursor: text
+}
+
+.no-touch .nv-menu li.nv-search-item:hover input.nv-search {
+    /*color: white*/
+    color: #5f6f81;
+}
+
+/* placeholder */
+
+.no-touch .nv-menu li.nv-search-item:hover .nv-search::-webkit-input-placeholder {
+    /*color: white*/
+    color: #5f6f81;
+}
+
+.no-touch .nv-menu li.nv-search-item:hover .nv-search:-moz-placeholder {
+    /*color: white*/
+    color: #5f6f81;
+}
+
+.no-touch .nv-menu li.nv-search-item:hover .nv-search::-moz-placeholder {
+    /*color: white*/
+    color: #5f6f81;
+}
+
+.no-touch .nv-menu li.nv-search-item:hover .nv-search:-ms-input-placeholder {
+    /*color: white*/
+    color: #5f6f81;
+}
+
+.nv-menu-main a.nv-icon-search {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 60px;
+}
+
+.nv-icon::before {
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+    text-transform: none;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-family: 'ecoicons';
+    line-height: 1;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+}
+
+.nv-icon-help::before {
+    content: "\e000"
+}
+
+.nv-icon-earth::before {
+    content: "\e004"
+}
+
+.nv-icon-cog::before {
+    content: "\e006"
+}
+
+.nv-icon-search::before {
+    content: "\e005"
+}
+
+.nv-icon-download::before {
+    content: "\e007"
+}
+
+.nv-icon-photoshop::before {
+    content: "\e001"
+}
+
+.nv-icon-illustrator::before {
+    content: "\e002"
+}
+
+.nv-icon-archive::before {
+    content: "\e00d"
+}
+
+.nv-icon-article::before {
+    content: "\e003"
+}
+
+.nv-icon-pictures::before {
+    content: "\e008"
+}
+
+.nv-icon-videos::before {
+    content: "\e009"
+}
+
+/* if an icon anchor has a span, hide the span */
+
+.nv-icon span {
+    width: 0;
+    height: 0;
+    display: block;
+    overflow: hidden;
+}
+
+.nv-icon-menu::before {
+    margin-left: -15px;
+    vertical-align: -2px;
+    width: 30px;
+    height: 3px;
+    /*background: #5f6f81;*/
+    background: white;
+    /*box-shadow: 0 3px white, 0 -6px #5f6f81, 0 -9px white, 0 -12px #5f6f81;*/
+    box-shadow: 0 3px #5f6f81, 0 -6px white, 0 -9px #5f6f81, 0 -12px white;
+    content: '';
+}
+
+.no-touch .nv-icon-menu:hover::before,
+.no-touch .nv-icon-menu.nv-selected:hover::before {
+    /*background: white;*/
+    background: #5f6f81;
+    /*box-shadow: 0 3px #5f6f81, 0 -6px white, 0 -9px #5f6f81, 0 -12px white;*/
+    box-shadow: 0 3px white, 0 -6px #5f6f81, 0 -9px white, 0 -12px #5f6f81;
+}
+
+.nv-icon-menu.nv-selected::before {
+    background: #5993cd;
+    box-shadow: 0 3px white, 0 -6px #5993cd, 0 -9px white, 0 -12px #5993cd;
+}
+
+/* styles for opening menu */
+
+.nv-menu-wrapper.nv-open-all,
+.nv-menu-wrapper.nv-open-part {
+    -webkit-transform: translateX(0px);
+    -moz-transform: translateX(0px);
+    transform: translateX(0px);
+}
+
+.nv-menu-wrapper.nv-open-all {
+    width: 340px
+}
+
+.nv-menu-wrapper.nv-open-all .nv-sub-menu li {
+    height: 60px
+}
+
+@media screen and (max-width: 422px) {
+    .nv-menu-wrapper.nv-open-all {
+        -webkit-transform: translateX(0px);
+        -moz-transform: translateX(0px);
+        transform: translateX(0px);
+        width: 100%;
+    }
+
+    .nv-menu-wrapper.nv-open-all .nv-scroller {
+        width: 130%
+    }
+}
+
+/*
+ * NProgress
+ * (z-index: 100)
+ */
+/* Make clicks pass-through */
+#nprogress {
+  pointer-events: none;
+  -webkit-pointer-events: none;
+}
+
+#nprogress .bar {
+  background: #29d;
+
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 2px;
+}
+
+/* Fancy blur effect */
+#nprogress .peg {
+  display: block;
+  position: absolute;
+  right: 0px;
+  width: 100px;
+  height: 100%;
+  box-shadow: 0 0 10px #29d, 0 0 5px #29d;
+  opacity: 1.0;
+
+  -webkit-transform: rotate(3deg) translate(0px, -4px);
+  -moz-transform: rotate(3deg) translate(0px, -4px);
+  -ms-transform: rotate(3deg) translate(0px, -4px);
+  -o-transform: rotate(3deg) translate(0px, -4px);
+  transform: rotate(3deg) translate(0px, -4px);
+}
+
+/* Remove these to get rid of the spinner */
+#nprogress .spinner {
+  display: block;
+  position: fixed;
+  z-index: 100;
+  top: 15px;
+  right: 15px;
+}
+
+#nprogress .spinner-icon {
+  width: 14px;
+  height: 14px;
+
+  border:  solid 2px transparent;
+  border-top-color:  #29d;
+  border-left-color: #29d;
+  border-radius: 10px;
+
+  -webkit-animation: nprogress-spinner 400ms linear infinite;
+  -moz-animation:    nprogress-spinner 400ms linear infinite;
+  -ms-animation:     nprogress-spinner 400ms linear infinite;
+  -o-animation:      nprogress-spinner 400ms linear infinite;
+  animation:         nprogress-spinner 400ms linear infinite;
+}
+
+@-webkit-keyframes nprogress-spinner {
+  0%   { -webkit-transform: rotate(0deg);   transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); transform: rotate(360deg); }
+}
+@-moz-keyframes nprogress-spinner {
+  0%   { -moz-transform: rotate(0deg);   transform: rotate(0deg); }
+  100% { -moz-transform: rotate(360deg); transform: rotate(360deg); }
+}
+@-o-keyframes nprogress-spinner {
+  0%   { -o-transform: rotate(0deg);   transform: rotate(0deg); }
+  100% { -o-transform: rotate(360deg); transform: rotate(360deg); }
+}
+@-ms-keyframes nprogress-spinner {
+  0%   { -ms-transform: rotate(0deg);   transform: rotate(0deg); }
+  100% { -ms-transform: rotate(360deg); transform: rotate(360deg); }
+}
+@keyframes nprogress-spinner {
+  0%   { transform: rotate(0deg);   transform: rotate(0deg); }
+  100% { transform: rotate(360deg); transform: rotate(360deg); }
+}
