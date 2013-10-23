@@ -10,7 +10,7 @@ def hello(request):
 
 
 def index(request):
-    #return HttpResponse("ChiChi")
+
     return render_to_response("index.html")
 
 
