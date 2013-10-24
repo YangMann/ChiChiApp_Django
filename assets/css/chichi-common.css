@@ -798,14 +798,14 @@ input[type="button"].bt-block {
 }
 
 .nv-menu {
-    border-bottom: 1px solid /*#c6d0da*//*#848C94*/ #483634;
+    border-bottom: 1px solid /*#c6d0da*//*#848C94*/ rgba(255,255,255,0.1);
     text-align: left;
     font-size: 18px;
 }
 
 .nv-menu li:not(:first-child),
 .nv-menu li li {
-    box-shadow: inset 0 1px /*#c6d0da*//*#848C94*/ #483634;
+    box-shadow: inset 0 1px /*#c6d0da*//*#848C94*/ rgba(255,255,255,0.1);
 }
 
 .nv-sub-menu li {

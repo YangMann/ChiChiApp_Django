@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a794d637-c573-4189-849b-4cc77f9906a9" name="Default" comment="整合button.css">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/json/food.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/app/ng/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/includes/photoflow.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ChiChiDjango.iml" afterPath="$PROJECT_DIR$/.idea/ChiChiDjango.iml" />
+    <list default="true" id="a794d637-c573-4189-849b-4cc77f9906a9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/includes/base.html" afterPath="$PROJECT_DIR$/templates/includes/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ChiChiDjango/settings.py" afterPath="$PROJECT_DIR$/ChiChiDjango/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ChiChi/views.py" afterPath="$PROJECT_DIR$/ChiChi/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/chichi-common.css" afterPath="$PROJECT_DIR$/assets/css/chichi-common.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ChiChiDjango.iws" />
@@ -38,15 +32,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ChiChiDjango/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="5" selection-start="732" selection-end="732" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2839">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ChiChi/models.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -59,13 +44,8 @@
       <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/includes/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="6" selection-start="903" selection-end="903" vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="612">
-              <folding>
-                <marker date="1382535606184" expanded="true" signature="131:1570" placeholder="..." />
-                <marker date="1382535606184" expanded="true" signature="160:895" placeholder="..." />
-                <marker date="1382535606184" expanded="true" signature="902:1562" placeholder="..." />
-                <marker date="1382535606184" expanded="true" signature="929:971" placeholder="..." />
-              </folding>
+            <state line="15" column="80" selection-start="934" selection-end="934" vertical-scroll-proportion="-5.8846154" vertical-offset="102" max-vertical-offset="629">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -73,13 +53,35 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="744" selection-end="744" vertical-scroll-proportion="-15.692307" vertical-offset="0" max-vertical-offset="561">
-              <folding>
-                <marker date="1382536595025" expanded="true" signature="163:403" placeholder="..." />
-                <marker date="1382536595025" expanded="true" signature="264:392" placeholder="..." />
-                <marker date="1382536595025" expanded="true" signature="298:373" placeholder="..." />
-                <marker date="1382536595025" expanded="true" signature="545:611" placeholder="..." />
-              </folding>
+            <state line="12" column="10" selection-start="404" selection-end="404" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="561">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="chichi-colors.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/chichi-colors.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="1" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nav.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/includes/nav.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="629">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="chichi-common.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/chichi-common.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1267" column="10" selection-start="25229" selection-end="25229" vertical-scroll-proportion="0.0" vertical-offset="21124" max-vertical-offset="21692">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -87,16 +89,16 @@
       <file leaf-file-name="photoflow.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/includes/photoflow.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="150" selection-end="150" vertical-scroll-proportion="0.22284645" vertical-offset="0" max-vertical-offset="534">
+            <state line="2" column="21" selection-start="90" selection-end="90" vertical-scroll-proportion="0.066019416" vertical-offset="0" max-vertical-offset="515">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/js/app/ng/main.js">
+      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="22" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+            <state line="40" column="29" selection-start="865" selection-end="865" vertical-scroll-proportion="0.0" vertical-offset="320" max-vertical-offset="1003">
               <folding />
             </state>
           </provider>
@@ -105,9 +107,18 @@
       <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ChiChi/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="42" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+            <state line="16" column="8" selection-start="359" selection-end="359" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ChiChiDjango/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="0" selection-start="827" selection-end="827" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
               <folding>
-                <marker date="1382535041189" expanded="true" signature="303:348" placeholder="..." />
+                <element signature="e#0#51#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -131,7 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/assets/js/vendor/jquery-1.10.2.min.js" />
         <option value="$PROJECT_DIR$/assets/js/libs/modernizr/modernizr.custom.js" />
         <option value="$PROJECT_DIR$/templates/includes/nav.html" />
         <option value="$PROJECT_DIR$/assets/css/chichi-colors.css" />
@@ -139,13 +149,14 @@
         <option value="$PROJECT_DIR$/assets/css/ChiChi-common.css" />
         <option value="$PROJECT_DIR$/assets/js/app/nav.js" />
         <option value="$PROJECT_DIR$/templates/includes/cover.html" />
-        <option value="$PROJECT_DIR$/assets/css/chichi-common.css" />
         <option value="$PROJECT_DIR$/assets/js/libs/jquery/jquery-1.10.2.min.map" />
         <option value="$PROJECT_DIR$/ChiChiDjango/settings.py" />
         <option value="$PROJECT_DIR$/ChiChi/views.py" />
-        <option value="$PROJECT_DIR$/templates/includes/base.html" />
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/assets/js/app/ng/main.js" />
+        <option value="$PROJECT_DIR$/templates/includes/test.html" />
+        <option value="$PROJECT_DIR$/assets/css/chichi-common.css" />
+        <option value="$PROJECT_DIR$/templates/includes/base.html" />
         <option value="$PROJECT_DIR$/templates/includes/photoflow.html" />
       </list>
     </option>
@@ -462,13 +473,13 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="JavaScript.Libraries" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="JavaScript.Libraries" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/js/libs/angular/angular.min.js" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -490,118 +501,6 @@
       <recent name="E:\GitHub\ChiChi.django\assets\css" />
       <recent name="E:\GitHub\ChiChi.django" />
     </key>
-  </component>
-  <component name="RestoreUpdateTree">
-    <UpdateInfo date="Moments ago" ActionInfo="_Update">
-      <UpdatedFiles>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated from server" />
-          <option name="myStatusName" value="Changed on server" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CHANGED_ON_SERVER" />
-          <FILE-GROUP>
-            <option name="myUpdateName" value="Updated" />
-            <option name="myStatusName" value="Changed" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="false" />
-            <option name="myId" value="UPDATED" />
-          </FILE-GROUP>
-          <FILE-GROUP>
-            <option name="myUpdateName" value="Created" />
-            <option name="myStatusName" value="Created" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="false" />
-            <option name="myId" value="CREATED" />
-          </FILE-GROUP>
-          <FILE-GROUP>
-            <option name="myUpdateName" value="Deleted" />
-            <option name="myStatusName" value="Deleted" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="true" />
-            <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/css/ChiChi-common.css</PATH>
-          </FILE-GROUP>
-          <FILE-GROUP>
-            <option name="myUpdateName" value="Restored" />
-            <option name="myStatusName" value="Will be restored" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="false" />
-            <option name="myId" value="RESTORED" />
-          </FILE-GROUP>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Modified" />
-          <option name="myStatusName" value="Modified" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="MODIFIED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Skipped" />
-          <option name="myStatusName" value="Skipped" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="SKIPPED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Merged with conflicts" />
-          <option name="myStatusName" value="Will be merged with conflicts" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="MERGED_WITH_CONFLICTS" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Merged with tree conflicts" />
-          <option name="myStatusName" value="Merged with tree conflicts" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Merged with property conflicts" />
-          <option name="myStatusName" value="Will be merged with property conflicts" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Merged" />
-          <option name="myStatusName" value="Will be merged" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="MERGED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Not in repository" />
-          <option name="myStatusName" value="Not in repository" />
-          <option name="mySupportsDeletion" value="true" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UNKNOWN" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Locally added" />
-          <option name="myStatusName" value="Locally added" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="LOCALLY_ADDED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Locally removed" />
-          <option name="myStatusName" value="Locally removed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="LOCALLY_REMOVED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Switched" />
-          <option name="myStatusName" value="Switched" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="SWITCHED" />
-        </FILE-GROUP>
-      </UpdatedFiles>
-    </UpdateInfo>
   </component>
   <component name="RunManager" selected="Django server.ChiChiDjango">
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -688,27 +587,7 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="ChiChiDjango" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8000" />
-      <option name="host" value="" />
-      <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="" />
-      <option name="runTestServer" value="false" />
-      <option name="runNoReload" value="false" />
-      <option name="useCustomRunCommand" value="false" />
-      <option name="customRunCommand" value="" />
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
@@ -734,7 +613,27 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ChiChiDjango" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -889,7 +788,11 @@
       <created>1382522576923</created>
       <updated>1382522576923</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Angular.js初始化，抽取photo-flow为独立HTML">
+      <created>1382540188759</created>
+      <updated>1382540188759</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -914,24 +817,24 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32881355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293718" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20713201" sideWeight="0.6757216" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32427844" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32767403" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293718" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20713201" sideWeight="0.6757216" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27162367" sideWeight="0.6712095" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32427844" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2336874" sideWeight="0.7063492" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32427844" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2936508" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32767403" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293718" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -953,9 +856,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24203338" sideWeight="0.6706282" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32767403" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32767403" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -975,107 +878,32 @@
     <MESSAGE value="左侧栏效果完成" />
     <MESSAGE value="整合button.css" />
     <MESSAGE value="chichi-common.css文件名bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="chichi-common.css文件名bug" />
+    <MESSAGE value="Angular.js初始化，抽取photo-flow为独立HTML" />
+    <option name="LAST_COMMIT_MESSAGE" value="Angular.js初始化，抽取photo-flow为独立HTML" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/js/libs/jquery/jquery-1.10.2.min.map">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="139983" selection-start="139983" selection-end="139983" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/includes/cover.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="20" selection-start="691" selection-end="691" vertical-scroll-proportion="0.5391791" vertical-offset="0" max-vertical-offset="536">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://db-console:/9b50dc37/a9231480-4b39-49e0-8de8-fd91ca291c70/">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/chichi-common.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-38.51184" vertical-offset="21143" max-vertical-offset="21692">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/chichi-colors.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="7" selection-start="78" selection-end="78" vertical-scroll-proportion="0.12099644" vertical-offset="0" max-vertical-offset="714">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/chichi-base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="678" column="73" selection-start="12375" selection-end="12375" vertical-scroll-proportion="2.1192172" vertical-offset="10335" max-vertical-offset="13090">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/app/nav.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="37" selection-start="3816" selection-end="3816" vertical-scroll-proportion="-0.061930783" vertical-offset="935" max-vertical-offset="6494">
-          <folding />
-        </state>
+        <state line="55" column="37" selection-start="3816" selection-end="3816" vertical-scroll-proportion="-0.061930783" vertical-offset="935" max-vertical-offset="6494" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/json/food.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8415">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8415" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ChiChi/tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="562">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ChiChi/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="42" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
-          <folding>
-            <marker date="1382535041189" expanded="true" signature="303:348" placeholder="..." />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="562" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ChiChiDjango/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="5" selection-start="732" selection-end="732" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2839">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ChiChi/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/includes/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="6" selection-start="903" selection-end="903" vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="612">
-          <folding>
-            <marker date="1382535606184" expanded="true" signature="131:1570" placeholder="..." />
-            <marker date="1382535606184" expanded="true" signature="160:895" placeholder="..." />
-            <marker date="1382535606184" expanded="true" signature="902:1562" placeholder="..." />
-            <marker date="1382535606184" expanded="true" signature="929:971" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1086,21 +914,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="29" selection-start="865" selection-end="865" vertical-scroll-proportion="0.0" vertical-offset="320" max-vertical-offset="1003">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChiChi/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="8" selection-start="359" selection-end="359" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChiChiDjango/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="827" selection-end="827" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChiChi/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/chichi-colors.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="1" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/includes/nav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/chichi-common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1267" column="10" selection-start="25229" selection-end="25229" vertical-scroll-proportion="0.0" vertical-offset="21124" max-vertical-offset="21692">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="744" selection-end="744" vertical-scroll-proportion="-15.692307" vertical-offset="0" max-vertical-offset="561">
-          <folding>
-            <marker date="1382536595025" expanded="true" signature="163:403" placeholder="..." />
-            <marker date="1382536595025" expanded="true" signature="264:392" placeholder="..." />
-            <marker date="1382536595025" expanded="true" signature="298:373" placeholder="..." />
-            <marker date="1382536595025" expanded="true" signature="545:611" placeholder="..." />
-          </folding>
+        <state line="12" column="10" selection-start="404" selection-end="404" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/includes/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="80" selection-start="934" selection-end="934" vertical-scroll-proportion="-5.8846154" vertical-offset="102" max-vertical-offset="629">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/includes/photoflow.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="150" selection-end="150" vertical-scroll-proportion="0.22284645" vertical-offset="0" max-vertical-offset="534">
+        <state line="2" column="21" selection-start="90" selection-end="90" vertical-scroll-proportion="0.066019416" vertical-offset="0" max-vertical-offset="515">
           <folding />
         </state>
       </provider>
