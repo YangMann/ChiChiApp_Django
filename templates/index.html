@@ -7,7 +7,8 @@
         {% include "includes/cover.html" %}
         <section class="u-2-3 wd-wrapper" tabindex="-1">
             <div class="wd-main">
-                {% include "includes/photoflow.html" %}
+                <h1>吃吃督察留言板</h1>
+               {% include "includes/comment-form.html" %}
             </div>
         </section>
     </div>
@@ -18,9 +19,6 @@
 <script type="text/javascript">
     new NvMenu(document.getElementById('nv-menu'), {});
 </script>
-{% endblock %}
-{% block js-after-ng %}
-    <script type="text/javascript" src="/assets/js/app/ng/main.js"></script>
 {% endblock %}
 
 {% verbatim %}

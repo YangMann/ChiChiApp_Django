@@ -1,0 +1,13 @@
+{% if errors %}
+ {% for error in errors %}
+   {{ error }}<br>
+ {% endfor %}
+{% endif %}
+
+{% if submit %}
+    <p>提交成功！</p>
+{% endif %}
+<form action="/result/" method="get">
+    <textarea name="t_content"></textarea>
+    <input type="submit" value="提交" rows="10" cols="50"/>
+</form>

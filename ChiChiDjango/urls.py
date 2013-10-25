@@ -20,5 +20,6 @@ urlpatterns = patterns('',
     url(r'^assets/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_PATH}),
     url(r'^hello/$', ChiChi.views.hello),
     url(r'^$', ChiChi.views.index),
-    url(r'^about/$', ChiChi.views.about)
+    url(r'^about/$', ChiChi.views.about),
+    url(r'^result/$', ChiChi.views.submit_comment),
 )
