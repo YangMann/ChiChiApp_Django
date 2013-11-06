@@ -1,3 +1,5 @@
+<h1 class="fm-title">吃吃督察留言板</h1>
+
 {% if errors %}
  {% for error in errors %}
    {{ error }}<br>
@@ -7,7 +9,10 @@
 {% if submit %}
     <p>提交成功！</p>
 {% endif %}
-<form action="/result/" method="get">
-    <textarea name="t_content"></textarea>
-    <input type="submit" value="提交" rows="10" cols="50"/>
+
+<form  class="fm-comment" ion="/result/" method="get">
+    <textarea  name="t_content"></textarea>
+    <br>
+    <input  class="bt  bt-primary fm-comment-submit" type="submit" value="提交" rows="10" cols="50"/>
 </form>
+
