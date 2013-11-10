@@ -389,6 +389,7 @@
     $.redir = function (elements, index, options) {
         var defaults = {},
             plugin = this,
+            target = $(document).find("#wd-main"),
             settings = {},
             $elements = $(elements);
 
@@ -402,9 +403,13 @@
                 return;
             }
             $elements.on("click", function (e) {
+                NProgress.start();
                 e.preventDefault();
-                $.post("/blog/", {}, function(data) {
-                    console.log(data);
+                console.log($(this).attr("data-redir"));
+                $.post("/"+ $(this).attr("data-redir") + "/", {}, function(data) {
+//                    console.log(data);
+                    $(target).html(data);
+                    NProgress.done();
                 });
             });
         };

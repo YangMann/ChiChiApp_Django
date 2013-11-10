@@ -3,8 +3,8 @@ from django.http import HttpResponse, Http404
 #from django.utils.translation import ugettext as _
 from django.shortcuts import render_to_response
 from django.template import TemplateDoesNotExist
-from models import User,Comment
-import datetime
+
+import json
 
 
 def hello(request):
@@ -22,6 +22,23 @@ def about(request):
         raise Http404()
 
 
+def home(request):
+    return render_to_response("includes/photoflow.html")
+
+
+def photo_flow(request):
+    return
+
+
+def adventure(request):
+    return render_to_response("adventure.html")
+
+
+def blog(request):
+    try:
+        return render_to_response("blog.html")
+    except TemplateDoesNotExist:
+        raise Http404()
 def submit_comment(request):
     errors = []
     if request.method == "GET":

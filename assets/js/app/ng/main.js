@@ -34,6 +34,7 @@ $.ajaxSetup({
     }
 });
 
+/*
 var app = angular.module("chichi", []);
 
 app.controller('photoFlowController', function($scope) {
@@ -47,6 +48,8 @@ app.controller('blogController', function($scope) {
         name: "ChiChi - Blog"
     };
 });
+*/
+
 
 $(window).ready(function() {
     var redirInstances = $("[data-redir]");

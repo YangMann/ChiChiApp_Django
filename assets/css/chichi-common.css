@@ -703,7 +703,6 @@ input[type="button"].bt-block {
     position: fixed;
     top: 0;
     left: 0;
-    width: 33.3%;
     height: 60px;
     font-size: 13px;
 }
@@ -781,7 +780,7 @@ input[type="button"].bt-block {
     width: 60px;
     border-top: 1px solid /*#c6d0da*/ #483634;
     /*background: white;*/
-    background: rgba(51, 38, 36, 0.93);
+    background: /*rgba(51, 38, 36, 0.93)*/#332624;
     -webkit-transform: translateX(-60px);
     -moz-transform: translateX(-60px);
     transform: translateX(-60px);
@@ -800,7 +799,7 @@ input[type="button"].bt-block {
 .nv-menu {
     border-bottom: 1px solid /*#c6d0da*//*#848C94*/ rgba(255,255,255,0.1);
     text-align: left;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .nv-menu li:not(:first-child),
@@ -1057,7 +1056,7 @@ input.nv-search:focus {
     width: 100px;
     height: 100%;
     /*box-shadow: 0 0 10px #29d, 0 0 5px #29d;*/
-    box-shadow: 0 0 10px #3bc734, 0 0 5px #3bc734;
+    box-shadow: 0 0 10px 3px #3bc734, 0 0 5px 1px #3bc734;
     opacity: 1.0;
 
     -webkit-transform: rotate(3deg) translate(0px, -4px);
@@ -1157,6 +1156,7 @@ input.nv-search:focus {
     position: absolute;
     top: 0;
     left: 0;
+    max-width: 340px;
 }
 
 .as-cover-img {
@@ -1266,5 +1266,9 @@ input.nv-search:focus {
 }
 
 .wd-main {
+    height: 100%
+}
 
+.wd-inner {
+    padding-top: 10px;
 }
