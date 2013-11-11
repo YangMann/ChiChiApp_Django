@@ -405,11 +405,21 @@
             $elements.on("click", function (e) {
                 NProgress.start();
                 e.preventDefault();
-                console.log($(this).attr("data-redir"));
-                $.post("/"+ $(this).attr("data-redir") + "/", {}, function(data) {
-//                    console.log(data);
-                    $(target).html(data);
-                    NProgress.done();
+                if (history && history.pushState) {
+                    history.pushState(null, document.title, "/" + $(this).attr("data-redir") + "/");
+                }
+                else {
+                    window.location.hash = "!" + $(this).attr("data-redir");
+                }
+                $.ajax({
+                    type: "POST",
+                    url: "/a/" + $(this).attr("data-redir") + "/",
+                    dataType: "html",
+                    data: {},
+                    success: function (response) {
+                        $(target).html(response);
+                        NProgress.done();
+                    }
                 });
             });
         };
@@ -427,3 +437,39 @@
     };
 
 })(jQuery);
+
+$(document).ready(function () {
+
+    "use strict";
+
+    var target = $(document).find("#wd-main");
+    if (history && history.pushState) {
+        var loaded = false;
+        $(window).bind("popstate", function () {
+            console.log("window bind called");
+            if (!loaded) {
+                loaded = true;
+            } else {
+                NProgress.start();
+                $.post("/a/" + location.href.replace(/\w+:\/\/[A-Za-z0-9:.]+\/(\w+)/,"$1"), {}, function(response) {
+                    $(target).html(response);
+                    NProgress.done();
+                });
+            }
+        });
+    } else {
+        if (window.location.hash.length) {
+            NProgress.start();
+            $.ajax({
+                type: "POST",
+                url: "/a/" + window.location.hash.replace("#!", "") + "/",
+                dataType: "html",
+                data: {},
+                success: function (response) {
+                    $(target).html(response);
+                    NProgress.done();
+                }
+            });
+        }
+    }
+});

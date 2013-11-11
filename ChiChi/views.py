@@ -1,10 +1,12 @@
 # Create your views here.
+import datetime
 from django.http import HttpResponse, Http404
 #from django.utils.translation import ugettext as _
 from django.shortcuts import render_to_response
 from django.template import TemplateDoesNotExist
 
 import json
+from ChiChi.models import Comment
 
 
 def hello(request):
@@ -36,9 +38,11 @@ def adventure(request):
 
 def blog(request):
     try:
-        return render_to_response("blog.html")
+        return render_to_response("includes/blog.html")
     except TemplateDoesNotExist:
         raise Http404()
+
+
 def submit_comment(request):
     errors = []
     if request.method == "GET":
